@@ -86,10 +86,10 @@ const initialState = {
         { id: "Human Resource", name: 'Human Resource', cost: 40 },
         { id: "IT", name: 'IT', cost: 500 },
     ],
-    currency: '£'
+    currency: '$'
 };
 
-// 2. Creates the context this is the thing our components import and use to get the state
+// 2. Creates the context; this is the thing our components import and use to get the state
 export const AppContext = createContext();
 
 // 3. Provider component - wraps the components we want to give access to the state
